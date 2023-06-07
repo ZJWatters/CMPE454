@@ -1,0 +1,13 @@
+﻿  asteroid.cpp
+  fg_stroke.cpp
+  gpuProgram.cpp
+  linalg.cpp
+  main.cpp
+  object.cpp
+  shell.cpp
+  ship.cpp
+  strokefont.cpp
+  world.cpp
+  Generating Code...
+  glad.c
+  a1.vcxproj -> C:\Users\watte\OneDrive\Documents\CMPE454\a1\a1\windows\x64\Debug\a1.exe

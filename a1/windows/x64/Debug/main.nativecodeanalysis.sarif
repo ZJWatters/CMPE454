@@ -1,0 +1,565 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'vec2::x' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/linalg.h"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 3,
+                  "endLine": 26,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vec2::{ctor}",
+                  "decoratedName": "??0vec2@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vec2::x"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'vec2::y' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/linalg.h"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 3,
+                  "endLine": 26,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vec2::{ctor}",
+                  "decoratedName": "??0vec2@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vec2::y"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'vec3::z' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/linalg.h"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 3,
+                  "endLine": 82,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vec3::{ctor}",
+                  "decoratedName": "??0vec3@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vec3::z"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'vec3::x' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/linalg.h"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 3,
+                  "endLine": 82,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vec3::{ctor}",
+                  "decoratedName": "??0vec3@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vec3::x"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'vec3::y' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/linalg.h"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 3,
+                  "endLine": 82,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vec3::{ctor}",
+                  "decoratedName": "??0vec3@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vec3::y"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'vec4::x' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/linalg.h"
+                },
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 3,
+                  "endLine": 157,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vec4::{ctor}",
+                  "decoratedName": "??0vec4@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vec4::x"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'vec4::y' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/linalg.h"
+                },
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 3,
+                  "endLine": 157,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vec4::{ctor}",
+                  "decoratedName": "??0vec4@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vec4::y"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'vec4::z' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/linalg.h"
+                },
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 3,
+                  "endLine": 157,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vec4::{ctor}",
+                  "decoratedName": "??0vec4@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vec4::z"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'vec4::w' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/linalg.h"
+                },
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 3,
+                  "endLine": 157,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vec4::{ctor}",
+                  "decoratedName": "??0vec4@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vec4::w"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GPUProgram::shader_fp' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/gpuProgram.h"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 3,
+                  "endLine": 22,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GPUProgram::{ctor}",
+                  "decoratedName": "??0GPUProgram@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GPUProgram::shader_fp"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GPUProgram::program_id' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/gpuProgram.h"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 3,
+                  "endLine": 22,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GPUProgram::{ctor}",
+                  "decoratedName": "??0GPUProgram@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GPUProgram::program_id"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GPUProgram::shader_vp' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/gpuProgram.h"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 3,
+                  "endLine": 22,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GPUProgram::{ctor}",
+                  "decoratedName": "??0GPUProgram@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GPUProgram::shader_vp"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/seq.h"
+                },
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 22,
+                  "endLine": 133,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "seq<unsigned int>::add",
+                  "decoratedName": "?add@?$seq@I@@QEAAXAEBI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/linalg.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "12c51bec9968da6254c2c3da7ea88cb2f5fffd9dc240c5c33352b8708a0a37dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/gpuProgram.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "01ef7db85e4ebad7ba8cadb4a2a16a45c90704ab58779b1b8b86077d9d004d3a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/watte/OneDrive/Documents/CMPE454/a1/a1/src/seq.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e046ad109b43d4e2d34009ea1d88275fb5815b0eb044dd371895ebae8593e3a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/watte/onedrive/documents/cmpe454/a1/a1/src/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "eb2d7607e7c036ebfd887e109adce9ae9d9dfa3f47fe1e88e9935b941536fca7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/watte/onedrive/documents/cmpe454/a1/a1/src/headers.h"
+          },
+          "hashes": {
+            "sha-256": "9d45c6e6cbd2a54db0ed4ea3895cddaa8d2cd87972be702f9bf998f827eb210f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/watte/onedrive/documents/cmpe454/a1/a1/src/glad/include/glad/glad.h"
+          },
+          "hashes": {
+            "sha-256": "e831fa2349a9dd9f9b37647391020aa37b2d67ed9049f40de282c92fd2ca3cc6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/watte/onedrive/documents/cmpe454/a1/a1/src/glad/include/khr/khrplatform.h"
+          },
+          "hashes": {
+            "sha-256": "4f1013d451392be5c3d051aea4c70b9da74ad3a1164d1e959f5f47b49a5213dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/watte/onedrive/documents/cmpe454/a1/a1/windows/include/glfw/glfw3.h"
+          },
+          "hashes": {
+            "sha-256": "58cb6576c30b9a4d67f4041ab713da850eabafafb2c14d23e1c5a500654788dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/watte/onedrive/documents/cmpe454/a1/a1/src/world.h"
+          },
+          "hashes": {
+            "sha-256": "325e6df6e4fa7f5c3aa16ee7b8a5597725d709daaa4b6cf6ed0dc62412eec16e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/watte/onedrive/documents/cmpe454/a1/a1/src/ship.h"
+          },
+          "hashes": {
+            "sha-256": "98341b28adc873cb22246cf3f16d447a217034f33bdfb7e4d38150d26bf1eaef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/watte/onedrive/documents/cmpe454/a1/a1/src/object.h"
+          },
+          "hashes": {
+            "sha-256": "ec3d76c330b94ecd9635fe9fefdc5ce82c36cfe7cd3f49411e5b15043e21f224"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/watte/onedrive/documents/cmpe454/a1/a1/src/segment.h"
+          },
+          "hashes": {
+            "sha-256": "5d263392e0ca2a903d9a7a3809a9e1935f86cd3b68a0221286cf9a63a87e10f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/watte/onedrive/documents/cmpe454/a1/a1/src/shell.h"
+          },
+          "hashes": {
+            "sha-256": "015d007d6abb4b8aa39fd4aaf863e50549da58764f640ac7a02d4eacb5f0410d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/watte/onedrive/documents/cmpe454/a1/a1/src/asteroid.h"
+          },
+          "hashes": {
+            "sha-256": "ea08bd08821bcccb3ac77b8140133e2b25ccf736cbac73fe12dbf6e83cd20f3d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/watte/onedrive/documents/cmpe454/a1/a1/src/main.h"
+          },
+          "hashes": {
+            "sha-256": "cba346a685c42237ef960b8ba4979e6181edccf626e5ff637f9577c60334c593"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/watte/onedrive/documents/cmpe454/a1/a1/src/strokefont.h"
+          },
+          "hashes": {
+            "sha-256": "33d30845c75e0d2070f0d72b194e6452ef48c1f11041b5186a3dceba4b0e8065"
+          }
+        }
+      ]
+    }
+  ]
+}
