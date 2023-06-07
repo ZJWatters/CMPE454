@@ -1,5 +1,7 @@
 Author: Zack Watters
 
+A3.txt file outlines code that was written by me.
+
 The sphere/sphere collisions were done in two ways. The current one is using the code steps. The 2nd is commented out right below. Under the comment
 '/* sphere velocities done using components' is the method for sphere/sphere 
 collisions using the individual perpendicular and parrallel components. 
