@@ -1,0 +1,31 @@
+Author: Zack Watters
+
+Ray Tracing assignment
+
+Below is taken from A4.txt written by the professor.
+In the raytracing window
+
+  As long as you're dragging the mouse to shift the viewpoint, the
+  scene will be redrawn quickly using OpenGL.  As soon as you stop
+  dragging the mouse, the raytracing code is called, and eventually a
+  raytraced image is shown.  You can drag the mouse again while the
+  raytracing is being done; the raytracing will be restarted as soon
+  as you stop dragging.
+
+  Note that the raytracing pixels are 2x2 normal pixels (controlled by
+  PIXEL_SCALE in scene.h).  This is to show the effects of antialiasing.
+  You might want to set PIXEL_SCALE to 4 when debugging your
+  antialiasing to make the effect more visible.  You can also use
+  CTRL-left mouse to zoom in on pixels.
+
+  In the rendering window, press '?' to get a list of options in the
+  console window.  These options allow you to change many things,
+  including the glossiness and the number of sample rays.
+
+  Click the mouse on a pixel to see the rays traced through that
+  pixel.  You can use the right mouse button to rotate the scene to
+  see the rays from a different viewpoint.  The rays are coloured:
+
+    blue:   a ray that hit an object
+    grey:   a ray that did not hit an object
+    yellow: a shadow ray that was sent toward a point light source
