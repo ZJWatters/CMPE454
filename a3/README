@@ -1,0 +1,10 @@
+Author: Zack Watters
+
+The sphere/sphere collisions were done in two ways. The current one is using the code steps. The 2nd is commented out right below. Under the comment
+'/* sphere velocities done using components' is the method for sphere/sphere 
+collisions using the individual perpendicular and parrallel components. 
+To see this method (which i think looks more realistic) comment out the first one and uncomment the 2nd. 
+
+For binary search the while condition (interval > deltaT/128.0) can be updated to be more accurate by dividing by a large number. 
+I chose 128 becasue my computer is too slow to watch the simultion without lagging if it is much higher.
+
