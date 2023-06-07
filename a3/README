@@ -8,3 +8,6 @@ To see this method (which i think looks more realistic) comment out the first on
 For binary search the while condition (interval > deltaT/128.0) can be updated to be more accurate by dividing by a large number. 
 I chose 128 becasue my computer is too slow to watch the simultion without lagging if it is much higher.
 
+Sim video is a recording of the simulation using 'test2' file in the Command Aurguments. 
+When 'c' is pressed the simulation shows the closest point of contact on the spheres path. 
+Spheres that turn green are constrained to roll on the plane.
